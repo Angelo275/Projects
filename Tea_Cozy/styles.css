@@ -1,0 +1,161 @@
+html{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    text-decoration-line: underline;
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+    /* float: right; */
+}
+nav li a{
+    color: seashell;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logo{
+  height: 50px;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+#mission{
+    height: 700px;
+    width: 1200px;
+}
+
+#relative{
+    position: relative;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+#absolute{
+    position: absolute;
+    top: 350px;
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+#absolute > h2, h4 {
+    padding: 0;
+    margin: 10px;
+}
+.Section1 {
+    display: flex;
+    justify-content: center;
+}
+#teaType{
+    text-align: center;
+}
+
+.Section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+#teaClass{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    padding: 0 50px 25px;
+    margin: 0 50px 25px;
+}
+#teaClass div h4{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.tea{
+    height: 200px;
+    width: 300px;
+    padding: 15px 15px;
+}
+
+.Section3{
+    position: relative;
+    /* display: flex; */
+}
+
+/* #Location{
+    border: 3px solid #73AD21;
+} */
+#addresses {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    width: 100%;
+}
+#heading2{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.venua{
+    height: 250px;
+    width: 300px;
+    margin: 0px 15px;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+}
+
+#background{
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+footer{
+    width: 100vw;
+    text-align: left;
+}
+#mail {
+    text-align: center;
+}
+#mail a{
+    text-decoration: none;
+    color: seashell;
+}
+#copyright{
+    padding: 20px;
+}
+#copyright p{ 
+    display: inline-block;
+    text-align: left;
+}
